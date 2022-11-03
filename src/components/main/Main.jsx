@@ -31,7 +31,7 @@ const Main = () => {
         dispatch(getRepos(searchValue, currentPage, perPage))
     }
 
-    
+
 
     return (
         <div>

@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import Main from './main/Main';
 import { BrowserRouter, Routes, Route, } from 'react-router-dom';
 import Card from './card/card';
-import Error from './main/Error';
+import Error from './main/Error.jsx';
 
 const App = () => {
     const dispatch = useDispatch()
